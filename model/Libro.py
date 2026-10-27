@@ -7,6 +7,9 @@ class Libro:
             self.categoria = categoria
             self.cod_socio = cod_socio
 
+    def __str__(self):
+        return f"Libro(codigo={self.codigo}, titulo={self.titulo}, autor={self.autor}, anio={self.anio}, categoria={self.categoria}, cod_socio={self.cod_socio})"          
+
     def esta_dispo(self):
           return self.cod_socio is None
 
@@ -15,3 +18,8 @@ class Libro:
 
     def devolver(self):
           self.cod_socio = None
+
+    def listar_disponibles(self):
+        for libro in self:
+            if libro.esta_dispo():
+                print(libro)

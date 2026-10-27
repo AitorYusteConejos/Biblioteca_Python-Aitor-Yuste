@@ -1,0 +1,16 @@
+cod_socio;nombre;email;cod_libro
+S001;Ana García;ana.garcia@example.com;
+S002;Luis Martínez;luis.martinez@example.com;
+S003;Marta López;marta.lopez@example.com;
+S004;Pablo Sánchez;pablo.sanchez@example.com;
+S005;Lucía Fernández;lucia.fernandez@example.com;
+S006;David Pérez;david.perez@example.com;
+S007;Elena Gómez;elena.gomez@example.com;
+S008;Javier Ruiz;javier.ruiz@example.com;
+S009;Sara Díaz;sara.diaz@example.com;
+S010;Daniel Moreno;daniel.moreno@example.com;
+S011;Laura Muñoz;laura.munoz@example.com;
+S012;Adrián Romero;adrian.romero@example.com;
+S013;Paula Alonso;paula.alonso@example.com;
+S014;Diego Navarro;diego.navarro@example.com;
+S015;Carmen Torres;carmen.torres@example.com;
