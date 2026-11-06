@@ -1,5 +1,5 @@
 codigo;titulo;autor;anio;categoria;cod_socio
-L001;Don Quijote de la Mancha;Miguel de Cervantes;1605;Novela;
+L001;Don Quijote de la Mancha;Miguel de Cervantes;1605;Novela;S001
 L002;La Galatea;Miguel de Cervantes;1585;Novela;
 L003;Novelas ejemplares;Miguel de Cervantes;1613;Relatos;
 L004;La vida es sueño;Pedro Calderón de la Barca;1636;Teatro;
@@ -9,7 +9,7 @@ L007;La Celestina;Fernando de Rojas;1499;Teatro;
 L008;Lazarillo de Tormes;Anónimo;1554;Novela;
 L009;El conde Lucanor;Don Juan Manuel;1335;Relatos;
 L010;Coplas a la muerte de su padre;Jorge Manrique;1476;Poesía;
-L011;Rimas y leyendas;Gustavo Adolfo Bécquer;1871;Poesía y relatos;
+L011;Rimas y leyendas;Gustavo Adolfo Bécquer;1871;Poesía y relatos;S003
 L012;Don Juan Tenorio;José Zorrilla;1844;Teatro;
 L013;La Regenta;Leopoldo Alas Clarín;1884;Novela;
 L014;Fortunata y Jacinta;Benito Pérez Galdós;1887;Novela;
@@ -44,12 +44,12 @@ L042;Olvidado rey Gudú;Ana María Matute;1996;Fantasía;
 L043;Entre visillos;Carmen Martín Gaite;1958;Novela;
 L044;El cuarto de atrás;Carmen Martín Gaite;1978;Novela;
 L045;Historia de una escalera;Antonio Buero Vallejo;1949;Teatro;
-L046;La sombra del viento;Carlos Ruiz Zafón;2001;Misterio;
+L046;La sombra del viento;Carlos Ruiz Zafón;2001;Misterio;S005
 L047;El juego del ángel;Carlos Ruiz Zafón;2008;Misterio;
 L048;El príncipe de la niebla;Carlos Ruiz Zafón;1993;Fantasía;
 L049;La tabla de Flandes;Arturo Pérez-Reverte;1990;Misterio;
 L050;El capitán Alatriste;Arturo Pérez-Reverte;1996;Aventuras;
-L051;Cien años de soledad;Gabriel García Márquez;1967;Novela;
+L051;Cien años de soledad;Gabriel García Márquez;1967;Novela;S007
 L052;El amor en los tiempos del cólera;Gabriel García Márquez;1985;Novela;
 L053;Crónica de una muerte anunciada;Gabriel García Márquez;1981;Novela;
 L054;El coronel no tiene quien le escriba;Gabriel García Márquez;1961;Novela;
@@ -79,7 +79,7 @@ L077;Las aventuras de Huckleberry Finn;Mark Twain;1884;Aventuras;
 L078;Moby Dick;Herman Melville;1851;Aventuras;
 L079;Mujercitas;Louisa May Alcott;1868;Novela;
 L080;Alicia en el país de las maravillas;Lewis Carroll;1865;Fantasía;
-L081;El hobbit;J. R. R. Tolkien;1937;Fantasía;
+L081;El hobbit;J. R. R. Tolkien;1937;Fantasía;S009
 L082;La comunidad del anillo;J. R. R. Tolkien;1954;Fantasía;
 L083;Las dos torres;J. R. R. Tolkien;1954;Fantasía;
 L084;El retorno del rey;J. R. R. Tolkien;1955;Fantasía;

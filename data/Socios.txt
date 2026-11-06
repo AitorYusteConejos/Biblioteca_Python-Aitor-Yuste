@@ -1,13 +1,13 @@
 cod_socio;nombre;email;cod_libro
-S001;Ana García;ana.garcia@example.com;
+S001;Ana García;ana.garcia@example.com;L001
 S002;Luis Martínez;luis.martinez@example.com;
-S003;Marta López;marta.lopez@example.com;
+S003;Marta López;marta.lopez@example.com;L011
 S004;Pablo Sánchez;pablo.sanchez@example.com;
-S005;Lucía Fernández;lucia.fernandez@example.com;
+S005;Lucía Fernández;lucia.fernandez@example.com;L046
 S006;David Pérez;david.perez@example.com;
-S007;Elena Gómez;elena.gomez@example.com;
+S007;Elena Gómez;elena.gomez@example.com;L051
 S008;Javier Ruiz;javier.ruiz@example.com;
-S009;Sara Díaz;sara.diaz@example.com;
+S009;Sara Díaz;sara.diaz@example.com;L081
 S010;Daniel Moreno;daniel.moreno@example.com;
 S011;Laura Muñoz;laura.munoz@example.com;
 S012;Adrián Romero;adrian.romero@example.com;
