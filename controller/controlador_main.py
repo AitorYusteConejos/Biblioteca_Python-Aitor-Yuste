@@ -141,6 +141,66 @@ class ControladorBiblioteca:
         print("Préstamo realizado correctamente.")
 
 
+    def devolver_libro(self):
+        try:
+            codigo_socio = input("Introduce el código del socio: ").strip()
+            socio_encontrado = None
+
+            for socio in self.socios:
+                if socio.codigo == codigo_socio:
+                    socio_encontrado = socio
+                    break
+
+            if socio_encontrado is None:
+                raise SocioInexistenteError(
+                    "No existe ningún socio con ese código",
+                    codigo_socio
+                )
+
+            if socio_encontrado.tiene_prestamo() == False:
+                raise SocioNoTienePrestamoError(
+                    "El socio no tiene ningún libro prestado",
+                    codigo_socio
+                )
+
+            codigo_libro = socio_encontrado.cod_libro
+            libro_encontrado = None
+
+            for libro in self.libros:
+                if libro.codigo == codigo_libro:
+                    libro_encontrado = libro
+                    break
+
+            if libro_encontrado is None:
+                raise LibroInexistenteError(
+                    "No se encuentra el libro prestado al socio",
+                    codigo_libro
+                )
+
+            if libro_encontrado.cod_socio != socio_encontrado.codigo:
+                print("Los datos del préstamo no coinciden. No se puede devolver.")
+                return
+
+            libro_encontrado.devolver()
+            socio_encontrado.devolver()
+
+            self.registrar_evento(
+                "DEVOLUCIÓN",
+                f"Libro: {codigo_libro}; Socio: {codigo_socio}"
+            )
+
+            print("Libro devuelto correctamente.")
+
+        except SocioInexistenteError as error:
+            print(f"{error}. Código: {error.codigo}")
+
+        except SocioNoTienePrestamoError as error:
+            print(f"{error}. Código: {error.codigo}")
+
+        except LibroInexistenteError as error:
+            print(f"{error}. Código: {error.codigo}")
+
+
     
     def acabar(self):
         self.dao_libros.guardar_libros(self.libros)
