@@ -1,5 +1,5 @@
 def menu_bilioteca():
-    print("\n === Menu Gestión ===")
+    print("\n === Menú Gestión ===")
     print("1. Gestion libros")
     print("2. Gestion socios")
     print("3. Iniciar prestamo")
@@ -7,12 +7,15 @@ def menu_bilioteca():
     print("5. Acabar")
 
 def menu_libros():
-    print("\n === Menu Libros ===")
-    print("1.Listar Libros")
+    print("\n === Menú Libros ===")
+    print("1. Listar Libros")
     print("2. Listar Disponibles")
-    print("3. Añadir Libro")
-    print("4. Volver al menu")
+    print("3. Buscar Libro")
+    print("4. Añadir Libro")
+    print("5. Volver al menú")
 
 def menu_socios():
-    print("\n === Menu Socios ===")
-    print("1.Listar socios con prestamo")
+    print("\n === Menú Socios ===")
+    print("1. Listar socios con prestamo")
+    print("2. Añadir Socios")
+    print("3. Volver al menú")
