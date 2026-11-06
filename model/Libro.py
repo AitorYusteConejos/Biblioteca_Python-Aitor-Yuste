@@ -18,8 +18,3 @@ class Libro:
 
     def devolver(self):
           self.cod_socio = None
-
-    def listar_disponibles(self):
-        for libro in self:
-            if libro.esta_dispo():
-                print(libro)

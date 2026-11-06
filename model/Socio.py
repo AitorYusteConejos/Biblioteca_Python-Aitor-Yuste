@@ -10,3 +10,6 @@ class Socio:
 
     def devolver(self):
         self.cod_libro = None
+
+    def tiene_prestamo(self):
+        return self.cod_libro is not None
