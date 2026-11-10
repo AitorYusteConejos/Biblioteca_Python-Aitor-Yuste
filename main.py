@@ -11,11 +11,11 @@ def main():
     libros = dao_libros.cargar_libros()
     socios = dao_socios.cargar_socios()
 
-    print("Se han cargado {len(libros)} libros correctamente")
-    print("Se han cargado {len(socios)} socios correctamente")
+    print(f"Se han cargado {len(libros)} libros correctamente")
+    print(f"Se han cargado {len(socios)} socios correctamente")
 
     controlador = ControladorBiblioteca(libros, socios, dao_libros, dao_socios)
-    controlador.iniciar
+    controlador.iniciar()
 
 if __name__ == "__main__":
     main()

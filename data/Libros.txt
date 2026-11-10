@@ -44,7 +44,7 @@ L042;Olvidado rey Gudú;Ana María Matute;1996;Fantasía;
 L043;Entre visillos;Carmen Martín Gaite;1958;Novela;
 L044;El cuarto de atrás;Carmen Martín Gaite;1978;Novela;
 L045;Historia de una escalera;Antonio Buero Vallejo;1949;Teatro;
-L046;La sombra del viento;Carlos Ruiz Zafón;2001;Misterio;S005
+L046;La sombra del viento;Carlos Ruiz Zafón;2001;Misterio;
 L047;El juego del ángel;Carlos Ruiz Zafón;2008;Misterio;
 L048;El príncipe de la niebla;Carlos Ruiz Zafón;1993;Fantasía;
 L049;La tabla de Flandes;Arturo Pérez-Reverte;1990;Misterio;
