@@ -1,5 +1,6 @@
 from model.DAO.dao_socios import SocioDAO
 from model.DAO.dao_libros import LibroDAO
+
 from controller.controlador_main import ControladorBiblioteca
 
 
@@ -15,3 +16,6 @@ def main():
 
     controlador = ControladorBiblioteca(libros, socios, dao_libros, dao_socios)
     controlador.iniciar
+
+if __name__ == "__main__":
+    main()
