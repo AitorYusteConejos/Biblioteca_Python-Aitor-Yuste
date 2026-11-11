@@ -68,7 +68,7 @@ L066;Orgullo y prejuicio;Jane Austen;1813;Novela;
 L067;Sentido y sensibilidad;Jane Austen;1811;Novela;
 L068;Emma;Jane Austen;1815;Novela;
 L069;Jane Eyre;Charlotte Brontë;1847;Novela;
-L070;Cumbres borrascosas;Emily Brontë;1847;Novela;
+L070;Cumbres borrascosas;Emily Brontë;1847;Novela;S002
 L071;Frankenstein;Mary Shelley;1818;Terror;
 L072;Drácula;Bram Stoker;1897;Terror;
 L073;El retrato de Dorian Gray;Oscar Wilde;1890;Novela;

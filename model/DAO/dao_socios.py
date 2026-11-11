@@ -1,4 +1,4 @@
-from model.Socio import Socio
+from model.socio import Socio
 
 class SocioDAO:
     def cargar_socios(self):

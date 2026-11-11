@@ -1,7 +1,7 @@
 from datetime import datetime
 
-from model.Libro import Libro
-from model.Socio import Socio
+from model.libro import Libro
+from model.socio import Socio
 from errors.error_biblioteca import ErrorBiblioteca
 from view.view import View as view
 
@@ -11,6 +11,8 @@ class ControladorBiblioteca:
     def __init__(self, libros, socios, dao_libros, dao_socios):
         self.libros = libros
         self.socios = socios
+        self.dao_libros = dao_libros
+        self.dao_socios = dao_socios
 
 
     def iniciar(self):
@@ -180,8 +182,8 @@ class ControladorBiblioteca:
             f"Socio: {codigo}")
 
     def iniciar_prestamo(self):
-        codigo_libro = view.pedir_dato("Código del libro: ")
-        codigo_socio = view.pedir_dato("Código del socio: ")
+        codigo_libro = view.pedir_dato("Código del libro: ").upper()
+        codigo_socio = view.pedir_dato("Código del socio: ").upper()
 
         try:
             libro = self.buscar_libro(codigo_libro)
@@ -213,7 +215,7 @@ class ControladorBiblioteca:
             view.mostrar_mensaje(f"{error}. Código: {error.codigo}")
 
     def devolver_libro(self):
-        codigo_socio = view.pedir_dato("Código del socio: ")
+        codigo_socio = view.pedir_dato("Código del socio: ").upper()
 
         try:
             socio = self.buscar_socio(codigo_socio)

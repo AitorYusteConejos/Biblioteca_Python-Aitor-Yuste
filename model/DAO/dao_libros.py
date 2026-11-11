@@ -1,4 +1,4 @@
-from model.Libro import Libro
+from model.libro import Libro
 
 class LibroDAO:
     def cargar_libros(self):

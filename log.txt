@@ -1,1 +1,2 @@
 [2026-11-10 12:47:46][DEVOLUCIÓN][Libro: L046; Socio: S005]
+[2026-11-11 12:03:10][PRÉSTAMO][Libro: L070; Socio: S002]
