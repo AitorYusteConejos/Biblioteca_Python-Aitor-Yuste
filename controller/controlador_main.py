@@ -118,7 +118,7 @@ class ControladorBiblioteca:
         raise ErrorBiblioteca("No existe el socio", codigo)
 
     def anadir_libro(self):
-        codigo = view.pedir_dato("Código del libro: ")
+        codigo = view.pedir_dato("Código del libro: ").upper()
 
         for libro in self.libros:
             if libro.codigo == codigo:
@@ -154,7 +154,7 @@ class ControladorBiblioteca:
         )
 
     def anadir_socio(self):
-        codigo = view.pedir_dato("Código del socio: ")
+        codigo = view.pedir_dato("Código del socio: ").upper()
 
         for socio in self.socios:
             if socio.codigo == codigo:
