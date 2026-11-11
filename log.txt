@@ -1,2 +1,6 @@
 [2026-11-10 12:47:46][DEVOLUCIÓN][Libro: L046; Socio: S005]
 [2026-11-11 12:03:10][PRÉSTAMO][Libro: L070; Socio: S002]
+[2026-11-11 13:46:01][Libro añadido][Libro: L101]
+[2026-11-11 13:47:23][Socio añadido][Socio: S020]
+[2026-11-11 13:47:53][PRÉSTAMO][Libro: L101; Socio: S020]
+[2026-11-11 13:48:17][DEVOLUCIÓN][Libro: L081; Socio: S009]

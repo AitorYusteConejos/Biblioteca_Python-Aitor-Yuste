@@ -75,7 +75,8 @@ python3.10 main.py
 - Mejorar la validación de correos electrónicos y años.
 - Gestionar errores de lectura y escritura de archivos.
 - Añadir pruebas automatizadas.
+-
 
 ## Vídeo de presentación
 
-Pendiente de añadir el enlace al vídeo compartido en Google Drive.
+- **Google Drive:** pendiente de añadir el enlace compartido.

@@ -79,7 +79,7 @@ L077;Las aventuras de Huckleberry Finn;Mark Twain;1884;Aventuras;
 L078;Moby Dick;Herman Melville;1851;Aventuras;
 L079;Mujercitas;Louisa May Alcott;1868;Novela;
 L080;Alicia en el país de las maravillas;Lewis Carroll;1865;Fantasía;
-L081;El hobbit;J. R. R. Tolkien;1937;Fantasía;S009
+L081;El hobbit;J. R. R. Tolkien;1937;Fantasía;
 L082;La comunidad del anillo;J. R. R. Tolkien;1954;Fantasía;
 L083;Las dos torres;J. R. R. Tolkien;1954;Fantasía;
 L084;El retorno del rey;J. R. R. Tolkien;1955;Fantasía;
@@ -99,3 +99,4 @@ L097;Los tres mosqueteros;Alexandre Dumas;1844;Aventuras;
 L098;Los miserables;Victor Hugo;1862;Novela;
 L099;El principito;Antoine de Saint-Exupéry;1943;Fábula;
 L100;La metamorfosis;Franz Kafka;1915;Novela;
+L101;Mortadelo;Ibañez;2003;Humor;S020
