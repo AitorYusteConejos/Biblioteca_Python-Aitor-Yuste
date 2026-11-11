@@ -79,4 +79,4 @@ python3.10 main.py
 
 ## Vídeo de presentación
 
-- **Google Drive:** pendiente de añadir el enlace compartido.
+- **Google Drive:** [(https://drive.google.com/file/d/10AFfG0hGNogCXtSqVtDUSLE2XkdbdCEv/view?usp=sharing)]
