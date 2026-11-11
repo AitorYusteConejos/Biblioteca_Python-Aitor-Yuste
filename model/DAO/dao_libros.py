@@ -1,13 +1,14 @@
 from model.libro import Libro
 
+
 class LibroDAO:
     def cargar_libros(self):
         libros = []
 
-        with open("data/Libros.txt", "r", encoding="utf-8") as archivoLibros:
-            next(archivoLibros)
+        with open("data/Libros.txt", "r", encoding="utf-8") as archivo_libros:
+            next(archivo_libros)
 
-            for linea in archivoLibros:
+            for linea in archivo_libros:
                 libro = linea.strip().split(";")
 
                 codigo = libro[0]
@@ -24,8 +25,8 @@ class LibroDAO:
         return libros
 
     def guardar_libros(self, libros):
-        with open("data/Libros.txt", "w", encoding="utf-8") as archivoLibro:
-            archivoLibro.write("codigo;titulo;autor;anio;categoria;cod_socio\n")
+        with open("data/Libros.txt", "w", encoding="utf-8") as archivo_libro:
+            archivo_libro.write("codigo;titulo;autor;anio;categoria;cod_socio\n")
 
             for libro in libros:
                 if libro.cod_socio is None:
@@ -33,7 +34,8 @@ class LibroDAO:
                 else:
                     cod_socio = libro.cod_socio
 
-                linea=(f"{libro.codigo};{libro.titulo};{libro.autor};"
-                       f"{libro.anio};{libro.categoria};{cod_socio}\n"
-                    )
-                archivoLibro.write(linea)
+                linea = (
+                    f"{libro.codigo};{libro.titulo};{libro.autor};"
+                    f"{libro.anio};{libro.categoria};{cod_socio}\n"
+                )
+                archivo_libro.write(linea)

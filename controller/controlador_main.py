@@ -178,7 +178,7 @@ class ControladorBiblioteca:
         view.mostrar_mensaje("Socio añadido correctamente.")
 
         self.registrar_evento(
-            "Socio añdido",
+            "Socio añadido",
             f"Socio: {codigo}")
 
     def iniciar_prestamo(self):
@@ -189,7 +189,7 @@ class ControladorBiblioteca:
             libro = self.buscar_libro(codigo_libro)
             socio = self.buscar_socio(codigo_socio)
 
-            if libro.esta_dispo() == False:
+            if not libro.esta_dispo():
                 raise ErrorBiblioteca(
                     "El libro ya está prestado",
                     codigo_libro
@@ -220,7 +220,7 @@ class ControladorBiblioteca:
         try:
             socio = self.buscar_socio(codigo_socio)
 
-            if socio.tiene_prestamo() == False:
+            if not socio.tiene_prestamo():
                 raise ErrorBiblioteca(
                     "El socio no tiene ningún préstamo",
                     codigo_socio
